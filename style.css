@@ -1,0 +1,110 @@
+/* 
+  You don't need to add any styles to complete this project.
+
+  If you want to add styles, you can do so in this file.
+  
+*/
+
+
+
+/* These styles are for the disclaimer -- leave them alone */
+
+.disclaimer {
+  margin: 1em;
+  padding: 4px;
+  border: 1px solid hotpink;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: darkred;
+    color: #fff;
+    padding: 2.5rem 1.8rem;
+}
+header h3 {
+    color: #ccc;
+    margin-top: 1rem;
+}
+#main-body {
+    display: grid;
+    padding: 10px;
+    padding-bottom: 0;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+    background-color: rgb(228, 222, 222);
+}
+.div1 img{
+    width: 200px;
+    border-radius: 4%;
+}
+.div1 {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    padding-top: 0;
+    background-color:  rgba(163, 154, 154, 0.7);
+}
+.div1 h4 {
+    margin: 1rem 0;
+}
+.div1 ul li {
+    margin: .4rem 0;
+}
+.div1 ul li:last-child {
+    list-style-type: none;
+    margin: 1.5rem 0;
+}
+.header-section {
+    padding: .4rem;
+    width: 100%;
+    border: 1px solid darkred;
+}
+.div2 p {
+    margin: 1rem auto;
+}
+.div2 ul {
+    margin-left: 3rem;
+    list-style-type: square;
+    margin-bottom: 1rem;
+}
+.div2 ul li {
+    margin-top: 1rem;
+}
+.div2 ul li:last-child {
+    margin-bottom: 1rem;
+}
+.div3 h4 {
+    margin-top: 1rem;
+} 
+.specific-p{
+    margin-bottom: 1rem;
+}
+.office-hours {
+    margin-bottom: .7rem;
+}
+
+/* Summary page styling */
+.summary-section {
+    width: 100vw;
+    background-color: #333;
+    color: #fff;
+    margin: -10px;
+}
+.summary-section h2 {
+    padding: 3rem;
+    padding-bottom: 1rem;
+}
+.summary-section h3 {
+    padding: .5rem 3rem;
+}
+.summary-section ol li p {
+    padding: .5rem 3rem;
+}
+.summary-section >p {
+    padding: 2rem 3rem;
+    font-size: 1.2rem;
+}
